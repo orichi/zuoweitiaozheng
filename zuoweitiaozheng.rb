@@ -55,9 +55,6 @@ zones.each do |zone|
 		@pool.delete(temp_max)
 
 	end
-	p temp2
-	# p list_temp
-	# list_temp[0...zone_size].each{|x| @pool.delete(x[1])}
 	zone_list << temp2
 	temp2 = nil
 end
