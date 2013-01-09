@@ -67,4 +67,4 @@ zone_list.each_with_index do |zone, index|
 		score += staff.list[index]
 	end
 end
-p "最佳喜好值总和是：----#{score}" #=>475
+p "The Best Scores is:----#{score}" #=>475
